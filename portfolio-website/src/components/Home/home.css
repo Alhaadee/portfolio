@@ -1,0 +1,14 @@
+.home-page .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+}
+
+h1 {
+    color: white;
+    font-size: 5.3rem;
+    margin: 0;
+    font-weight: 400;
+}
