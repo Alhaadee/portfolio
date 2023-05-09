@@ -1,12 +1,21 @@
 .nav-bar {
     background: #181818;
-    width: 60px;
+    width: 100px;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 3;
     min-height: 500px;
+}
+
+.logo {
+    height: auto;
+    width: 24px;
+    padding: 8px 0;
+    display: block;
+    font-size: 2rem;
+    line-height: 30px;
 }
 
 nav {
@@ -20,7 +29,7 @@ nav {
 }
 
 a {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #4d4d4e;
     display: block;
     line-height: 51px;
@@ -47,7 +56,7 @@ a:hover::after{
 
 a::after {
     content: '';
-    font-size: 9px;
+    font-size: 1.6rem;
     letter-spacing: 2px;
     position: absolute;
     bottom: 0;
@@ -87,7 +96,7 @@ ul {
 li a {
     padding: 7px 0;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     line-height: 1.6rem;
 }
 

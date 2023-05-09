@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        link
+        Al&#8209;Haadee <br /> Rahman
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" className="home-link" to="/">
