@@ -9,7 +9,6 @@ const Home = () => {
             <h1> Hi, <br /> I'm
                 Al-Haadee
                 <br />
-                
             </h1>
             <h2>Full Stack Developer</h2>
             <Link to="/contact" className="flat-button">CONTACT ME</Link>
