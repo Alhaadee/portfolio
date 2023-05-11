@@ -12,6 +12,7 @@ h1 {
     color: white;
     font-size: 5.3rem;
     margin: 0;
+    letter-spacing: 3px;
     font-weight: 400;
     font-family: 'Coolvetica';
 }
@@ -48,7 +49,7 @@ h2 {
     margin-top: 20px;
     font-size: 3rem;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeIn 1s 2.2s backwards;
 }
 
 .flat-button {
@@ -62,7 +63,7 @@ h2 {
     border: 1px solid #ffd700;
     float: left;
     margin-top: 25px;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeIn 1s 2.2s backwards;
     white-space: nowrap;
 
 }

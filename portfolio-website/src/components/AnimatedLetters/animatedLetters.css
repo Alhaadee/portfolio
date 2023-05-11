@@ -1,0 +1,35 @@
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+}
+
+.text-animate-hover:hover{
+    color: #ffd700;
+    animation: heartBeat 1s;
+}
+
+.text-animate._12 {animation-delay: calc(1.2s);}
+.text-animate._13 {animation-delay: calc(1.25s);}
+.text-animate._14 {animation-delay: calc(1.3s);}
+.text-animate._15 {animation-delay: calc(1.35s);}
+.text-animate._16 {animation-delay: calc(1.4s);}
+.text-animate._17 {animation-delay: calc(1.45s);}
+.text-animate._18 {animation-delay: calc(1.5s);}
+.text-animate._19 {animation-delay: calc(1.55s);}
+.text-animate._20 {animation-delay: calc(1.6s);}
+.text-animate._21 {animation-delay: calc(1.65s);}
+.text-animate._22 {animation-delay: calc(1.7s);}
+.text-animate._23 {animation-delay: calc(1.75s);}
+.text-animate._24 {animation-delay: calc(1.8s);}
+.text-animate._25 {animation-delay: calc(1.85s);}
+.text-animate._26 {animation-delay: calc(1.9s);}
+.text-animate._27 {animation-delay: calc(1.95s);}
