@@ -35,3 +35,69 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
+
+.about-page .text-zone {
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+}
+
+.about-page h1 {
+        color: #ffd700;
+        font-size: 5.3rem;
+        margin-top: 0;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+        font-weight: 400;
+        font-family: 'Coolvetica';
+    
+}
+
+.about-page h1::before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    color: #ffd700;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top: -10px;
+    left: -10px;
+    opacity: 0.6;
+    line-height: 1.8rem;
+}
+
+.about-page h1::after {
+    content: '</h1>';
+    font-family: 'La Belle Aurore';
+    color: #ffd700;
+    font-size: 1.8rem;
+    position: absolute;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+    left: -30px;
+    bottom: -20px;
+    margin-left: 20px;
+    opacity: 0.6;
+    animation: fadeIN 1S 1.7S backwards;
+}
+
+p {
+font-size: 1.3rem;
+color: #fff;
+font-family: sans-serif;
+font-weight: 100;
+min-width: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-page .text-zone {
+        left: 140px;
+        
+    }
+  }
