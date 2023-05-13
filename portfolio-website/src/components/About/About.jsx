@@ -1,5 +1,6 @@
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import "../Layout/Layout.css";
+import './about.css'
 import { useState, useEffect } from "react";
 
 import React from "react";

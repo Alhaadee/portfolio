@@ -19,7 +19,7 @@
     font-family: 'La Belle Aurore';
 }
 
-
+/* Go back to percentages for left?? */
 
 .container {
     width: 100%;
@@ -36,7 +36,7 @@
     animation-delay: 1s;
 }
 
-.about-page .text-zone {
+ .text-zone {
     position: absolute;
     left: 200px;
     top: 50%;

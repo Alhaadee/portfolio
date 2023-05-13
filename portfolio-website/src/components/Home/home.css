@@ -35,7 +35,7 @@ h1::after {
     font-size: 1.8rem;
     position: absolute;
     margin-top: 0px;
-    left: 15px;
+    left: 12px;
     opacity: 0.6;
     animation: fadeIn 1S 1.7s backwards;
 }
