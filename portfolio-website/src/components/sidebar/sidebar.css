@@ -78,6 +78,10 @@ a.contact-link::after {
     content: 'CONTACT';
 }
 
+a.portfolio-link::after {
+    content: 'MY WORK';
+}
+
 a.active svg {
     color: #ffd700;
 }
