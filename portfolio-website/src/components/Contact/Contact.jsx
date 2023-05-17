@@ -1,4 +1,5 @@
 import '../Layout/Layout.css'
+import './contact.css'
 import React from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useState,useEffect } from 'react'
@@ -23,7 +24,19 @@ const Contact = () => {
           idx={12}
           letterClass={letterClass}/>
         </h1>
+
+        <div className='form-container'>
+        <form>
+          <input type="text" name='name' placeholder='Name' required className='name'/>
+          <input type="email" name='email' placeholder='Email' required className='email'/>
+          <input type="text" name='subject' placeholder='Subject' required className='subject'/>
+          <textarea placeholder='Message' name='message' required className='text'></textarea>
+          <input type="submit" className='flat-button' value="SEND"/>
+        </form>
+
       </div>
+      </div>
+      
     </div>
     </>
   )

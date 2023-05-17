@@ -1,0 +1,80 @@
+.form-container {
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+
+
+input,textarea {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+    display:block;
+    position: relative;
+    
+}
+
+input::placeholder {
+    color: lightgray;
+}
+textarea::placeholder {
+    color: lightgray;
+}
+
+.text {
+    grid-area: text;
+}
+
+.name {
+    grid-area: name;
+}
+.email {
+    grid-area: email;
+}
+.subject {
+    grid-area: subject
+}
+
+form {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "name email"
+    "subject subject"
+    "text text"
+    "button .";
+}
+
+input[type='text'],input[type='email'],textarea {
+    width: 100%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+textarea {
+    border: 0;
+    padding: 20px;
+    min-height: 150px;
+}
+
+.flat-button {
+    color: #ffd700;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700;
+    border-radius: 4px;
+    width: 150px;
+}
