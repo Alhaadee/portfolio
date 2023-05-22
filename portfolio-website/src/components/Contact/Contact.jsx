@@ -3,16 +3,42 @@ import './contact.css'
 import React from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useState,useEffect } from 'react'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
 
   const [letterClass, setLetterClass] = useState("text-animate");
+  const refForm = useRef()
 
   useEffect(() => {
     setTimeout(() => {
       setLetterClass("text-animate-hover");
     }, 2500);
   }, []);
+
+  const sendEmail = e => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      import.meta.env.VITE_SERVICE_ID,
+      "template_id",
+      refForm.current,
+      import.meta.env.VITE_PUBLIC_KEY
+
+     
+    ).then(
+      () => {
+        alert('Message Successfully sent')
+        window.location.reload(false)
+      }, () => {
+        alert('Failed to send, please try again')
+      }
+    )
+
+    
+  }
+  
 
   return (
     <>
@@ -26,7 +52,7 @@ const Contact = () => {
         </h1>
 
         <div className='form-container'>
-        <form>
+        <form ref={refForm} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Name' required className='name'/>
           <input type="email" name='email' placeholder='Email' required className='email'/>
           <input type="text" name='subject' placeholder='Subject' required className='subject'/>
