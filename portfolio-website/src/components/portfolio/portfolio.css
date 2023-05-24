@@ -1,0 +1,65 @@
+
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 5%;
+    left: 100px;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}
+.text-zone-portfolio {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+}
+
+.portfolio-page h1 {
+    color: #ffd700;
+    font-size: 5.3rem;
+    margin-top: 0;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 40px;
+    left: 10px;
+    font-weight: 400;
+    font-family: 'Coolvetica';
+
+}
+
+.portfolio-page h1::before {
+content: '<h1>';
+font-family: 'La Belle Aurore';
+color: #ffd700;
+font-size: 1.8rem;
+position: absolute;
+margin-top: -10px;
+left: -10px;
+opacity: 0.6;
+line-height: 1.8rem;
+}
+
+.portfolio-page h1::after {
+content: '</h1>';
+font-family: 'La Belle Aurore';
+color: #ffd700;
+font-size: 1.8rem;
+position: absolute;
+line-height: 1.8rem;
+margin-bottom: 10px;
+left: -30px;
+bottom: -20px;
+margin-left: 20px;
+opacity: 0.6;
+animation: fadeIN 1S 1.7S backwards;
+}
