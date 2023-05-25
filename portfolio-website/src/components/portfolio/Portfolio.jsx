@@ -25,7 +25,14 @@ const Portfolio = () => {
               idx={12}
             />
           </h1>
+        
+        <div className='project-card'>
+        <img className='project-img' src="src\assets\project-screenshots\fantasyLeague_homepage.png" alt="fantasy league image" />
+        <div className='middle'><h3>Fantasy Football League</h3></div>
+        <p>Lorem ipsum dolor sit amet.</p>
         </div>
+        </div>
+       
       
     </div>
     </>
