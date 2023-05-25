@@ -1,6 +1,6 @@
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import "../Layout/Layout.css";
-import './about.css'
+import "./about.css";
 import { useState, useEffect } from "react";
 
 import React from "react";
@@ -17,23 +17,28 @@ const About = () => {
   return (
     <div className="container about-page">
       <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={"About me".split("")}
-              idx={12}
-            />
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            eaque qui, laboriosam, assumenda quam quisquam officiis incidunt illum
-            laudantium earum labore similique fugit enim doloribus facere totam.
-            Quas, ducimus nemo.
-          </p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, asperiores!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, sapiente.</p>
-        </div>
-      
+        <h1>
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={"About me".split("")}
+            idx={12}
+          />
+        </h1>
+        <p>
+          I am a Mechanical Engineering master’s graduate who has always been a
+          keen problem-solver. While studying, I enjoyed collaborating on
+          numerous group design projects and realised the tangible impact of
+          code through learning Matlab.  
+        </p>
+        <p>
+        This sparked my interest to pursue further self-learning with Python and subsequently Join the Bright
+          Network Full-Stack Bootcamp.
+        </p>
+        <p>
+        I have continued to improve my skills and I now wish to be a software engineer with an organisation that holds
+        collaboration and self-development as values.
+        </p>
+      </div>
     </div>
   );
 };
