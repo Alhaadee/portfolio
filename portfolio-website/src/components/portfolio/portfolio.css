@@ -64,9 +64,11 @@ animation: fadeIN 1S 1.7S backwards;
 
 .project-card { 
     margin-top: 100px;
-    width: fit-content;
+    max-width: 500px;
+    min-width: 350px;
     padding: 20px;
     border-radius: 15px 50px;
+    margin: 75px;
 }
 
 .project-img {
@@ -99,11 +101,23 @@ animation: fadeIN 1S 1.7S backwards;
   h3 {
     font-size: 2.4rem;
     color: white;
+    width: fit-content;
+    font-weight: 600;
+  }
+
+  .project-link {
+    padding: 20px;
   }
 
   .project-card p {
     margin: 0;
     position: relative;
     top: -70px;
+    width: fit-content;
+  }
+
+  section {
+    display: flex;
+    gap: 50px;
   }
 
