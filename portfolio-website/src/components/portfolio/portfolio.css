@@ -125,5 +125,9 @@ animation: fadeIN 1S 1.7S backwards;
     justify-content: space-evenly;
   }
 
+  #portfolio-picture {
+    border: black solid;
+    filter: brightness(1.75);
+  }
  
 

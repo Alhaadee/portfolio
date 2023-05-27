@@ -23,7 +23,7 @@ const Portfolio = () => {
               idx={12}
             />
           </h1>
-          <h3>Click on each project to find out more!</h3>
+          <h3>Click on each project to see the source code and find out more!</h3>
         </div>
         <section className="projects">
           <div className="project-card">
@@ -70,6 +70,26 @@ const Portfolio = () => {
           <div className="project-card">
             <img
               className="project-img"
+              id="portfolio-picture"
+              src="src\assets\project-screenshots\portfolio_pic.png"
+              alt="Portfolio"
+            />
+            <div className="middle">
+              <a
+                className="project-link"
+                href="https://github.com/Alhaadee/portfolio"
+                target="_blank"
+              >
+                <h3>Adventure Game API</h3>
+              </a>
+            </div>
+            <p>
+              This website was created with a focus on React and CSS which was then deployed using Github Pages.
+            </p>
+          </div>
+          <div className="project-card">
+            <img
+              className="project-img"
               src="src\assets\project-screenshots\ecommerce_drawing.png"
               alt="fantasy league image"
             />
@@ -110,6 +130,7 @@ const Portfolio = () => {
               was played by making various HTTP requests using Postman.
             </p>
           </div>
+          
         </section>
       </div>
 
