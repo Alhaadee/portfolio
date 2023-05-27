@@ -64,6 +64,7 @@ const Contact = () => {
       </div>
       
     </div>
+    <span className='tags bottom-tags' id='bottom-tags'>&lt;/body&gt;</span>
     </>
   )
 }

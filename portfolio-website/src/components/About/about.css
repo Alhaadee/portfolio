@@ -38,3 +38,29 @@ opacity: 0.6;
 animation: fadeIN 1S 1.7S backwards;
 }
 
+
+.cv-button {
+    vertical-align: top;
+}
+
+.flat-button {
+    color: #ffd700;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    float: left;
+    margin-top: 25px;
+    animation: fadeIn 1s 2.2s backwards;
+    white-space: nowrap;
+
+}
+
+.flat-button:hover {
+    background: #ffd700;
+    color: #333;
+}
+

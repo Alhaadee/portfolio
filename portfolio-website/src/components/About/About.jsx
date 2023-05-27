@@ -15,6 +15,7 @@ const About = () => {
   }, []);
 
   return (
+    <>
     <div className="container about-page">
       <div className="text-zone">
         <h1>
@@ -38,8 +39,13 @@ const About = () => {
         I have continued to improve my skills and I now wish to be a software engineer with an organisation that holds
         collaboration and self-development as values.
         </p>
+        <a className='flat-button cv-button' href="src\assets\CV - Al-Haadee.pdf" target="_blank">Read my CV</a>
       </div>
+      
+      
     </div>
+    <span className='tags bottom-tags' id='bottom-tags'>&lt;/body&gt;</span>
+    </>
   );
 };
 

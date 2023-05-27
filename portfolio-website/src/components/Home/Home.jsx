@@ -18,6 +18,7 @@ const Home = () => {
   
 
   return (
+    <>
     <div className='container home-page'>
         <div className='text-zone'>
             <h1>  <AnimatedLetters 
@@ -35,6 +36,8 @@ const Home = () => {
             <Link to="/contact" className="flat-button">CONTACT ME</Link>
         </div>
     </div>
+    <span className='tags bottom-tags' id='bottom-tags'>&lt;/body&gt;</span>
+    </>
   )
 }
 

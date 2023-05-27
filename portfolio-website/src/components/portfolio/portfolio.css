@@ -121,6 +121,8 @@ animation: fadeIN 1S 1.7S backwards;
     flex-wrap: wrap;
     position: absolute;
     top: 250px;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
  
