@@ -2,11 +2,11 @@
     background: #181818;
     width: 100px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 3;
-    min-height: 500px;
+    min-height: 100vh;
 }
 
 .logo {

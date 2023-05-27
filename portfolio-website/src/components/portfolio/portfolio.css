@@ -68,7 +68,7 @@ animation: fadeIN 1S 1.7S backwards;
     min-width: 350px;
     padding: 20px;
     border-radius: 15px 50px;
-    margin: 75px;
+    margin: 10px;
 }
 
 .project-img {
@@ -118,6 +118,10 @@ animation: fadeIN 1S 1.7S backwards;
 
   section {
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 250px;
   }
+
+ 
 
