@@ -42,7 +42,7 @@ const MyWork = () => {
               </a>
             </div>
             <p>
-              Capstone Project from Coding Bootcamp. Worked as a group in an
+              Capstone Project from Bright Network Coding Bootcamp. Worked as a group in an
               AGILE way of working to create a RESTful API with Java, Spring
               Boot and PostgreSQL and the website using React.
             </p>
