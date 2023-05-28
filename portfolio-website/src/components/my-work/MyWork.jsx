@@ -1,9 +1,9 @@
 import React from "react";
-import "./portfolio.css";
+import "./myWork.css";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import { useEffect, useState } from "react";
 
-const Portfolio = () => {
+const MyWork = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {
@@ -138,4 +138,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default MyWork;
