@@ -1,6 +1,7 @@
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import "../Layout/Layout.css";
 import "./about.css";
+import cv from "/src/assets/CV - Al-Haadee.pdf"
 import { useState, useEffect } from "react";
 
 import React from "react";
@@ -39,7 +40,7 @@ const About = () => {
         I have continued to improve my skills and I now wish to be a software engineer with an organisation that holds
         collaboration and self-development as values.
         </p>
-        <a className='flat-button cv-button' href="src\assets\CV - Al-Haadee.pdf" target="_blank">Read my CV</a>
+        <a className='flat-button cv-button' href={cv} target="_blank">Read my CV</a>
       </div>
       
       

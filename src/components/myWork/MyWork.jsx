@@ -1,4 +1,9 @@
 import React from "react";
+import fantasyImg from "/src/assets/project-screenshots/fantasyLeague_homepage.png"
+import adventureImg from "/src/assets/project-screenshots/adventure_game_overview.png"
+import portfolioImg from "/src/assets/project-screenshots/portfolio_pic.png"
+import ecommerceImg from "/src/assets/project-screenshots/ecommerce_drawing.png"
+import tictactoeImg from "/src/assets/project-screenshots/ticTacToe_img.png"
 import "./myWork.css";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import { useEffect, useState } from "react";
@@ -29,7 +34,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="/fantasyLeague_homepage.png"
+              src={fantasyImg}
               alt="fantasy league image"
             />
             <div className="middle">
@@ -50,7 +55,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="/ticTacToe_img.png"
+              src={tictactoeImg}
               alt="fantasy league image"
             />
             <div className="middle">
@@ -71,7 +76,7 @@ const MyWork = () => {
             <img
               className="project-img"
               id="portfolio-picture"
-              src="/portfolio_pic.png"
+              src={portfolioImg}
               alt="Portfolio"
             />
             <div className="middle">
@@ -90,7 +95,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="/ecommerce_drawing.png"
+              src={ecommerceImg}
               alt="fantasy league image"
             />
             <div className="middle">
@@ -112,7 +117,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="/adventure_game_overview.png"
+              src={adventureImg}
               alt="fantasy league image"
             />
             <div className="middle">
