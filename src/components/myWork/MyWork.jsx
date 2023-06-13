@@ -29,7 +29,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="src\assets\project-screenshots\fantasyLeague_homepage.png"
+              src="portfolio\src\assets\project-screenshots\fantasyLeague_homepage.png"
               alt="fantasy league image"
             />
             <div className="middle">
@@ -50,7 +50,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="src\assets\project-screenshots\ticTacToe_img.png"
+              src="portfolio\src\assets\project-screenshots\ticTacToe_img.png"
               alt="fantasy league image"
             />
             <div className="middle">
@@ -71,7 +71,7 @@ const MyWork = () => {
             <img
               className="project-img"
               id="portfolio-picture"
-              src="src\assets\project-screenshots\portfolio_pic.png"
+              src="portfolio\src\assets\project-screenshots\portfolio_pic.png"
               alt="Portfolio"
             />
             <div className="middle">
@@ -90,7 +90,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="src\assets\project-screenshots\ecommerce_drawing.png"
+              src="portfolio\src\assets\project-screenshots\ecommerce_drawing.png"
               alt="fantasy league image"
             />
             <div className="middle">
@@ -112,7 +112,7 @@ const MyWork = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="src\assets\project-screenshots\adventure_game_overview.png"
+              src="portfolio\src\assets\project-screenshots\adventure_game_overview.png"
               alt="fantasy league image"
             />
             <div className="middle">
