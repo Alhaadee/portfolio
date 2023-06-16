@@ -85,7 +85,7 @@ const MyWork = () => {
                 href="https://github.com/Alhaadee/portfolio"
                 target="_blank"
               >
-                <h3>Adventure Game API</h3>
+                <h3>Portfolio Website</h3>
               </a>
             </div>
             <p>
