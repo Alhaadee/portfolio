@@ -21,10 +21,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      import.meta.env.VITE_SERVICE_ID,
+      "service_dgpbz4t",
       "template_id",
       refForm.current,
-      import.meta.env.VITE_PUBLIC_KEY
+      "08N4IqDBsvgsBIXuY"
 
      
     ).then(
